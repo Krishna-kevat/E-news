@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+client/node_modules/
+backend/node_modules/
+
+# Environment
+.env
+backend/.env
+client/.env
+
+# Visual Studio Code
+.vscode/
+
+# Browser / OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+client/build/
+
+# Application Specific
+backend/uploads/*
+!backend/uploads/.gitkeep
